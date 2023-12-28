@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-28T12:38:19 NZDT" name="Surefire suite" finished-at="2023-12-28T12:38:32 NZDT" duration-ms="12868">
+    <groups>
+    </groups>
+    <test started-at="2023-12-28T12:38:19 NZDT" name="Surefire test" finished-at="2023-12-28T12:38:32 NZDT" duration-ms="12868">
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTests@35047d03]" started-at="2023-12-28T12:38:26 NZDT" name="setUpData" finished-at="2023-12-28T12:38:26 NZDT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="testCreateUser()[pri:1, instance:api.test.UserTests@35047d03]" started-at="2023-12-28T12:38:26 NZDT" name="testCreateUser" finished-at="2023-12-28T12:38:28 NZDT" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testGetUser()[pri:2, instance:api.test.UserTests@35047d03]" started-at="2023-12-28T12:38:28 NZDT" name="testGetUser" finished-at="2023-12-28T12:38:29 NZDT" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests@35047d03]" started-at="2023-12-28T12:38:29 NZDT" name="testUpdateUser" finished-at="2023-12-28T12:38:31 NZDT" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUser()[pri:4, instance:api.test.UserTests@35047d03]" started-at="2023-12-28T12:38:31 NZDT" name="testDeleteUser" finished-at="2023-12-28T12:38:32 NZDT" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.test.UserTests -->
+      <class name="api.test.PetTests">
+        <test-method is-config="true" signature="generateData()[pri:0, instance:api.test.PetTests@78b66d36]" started-at="2023-12-28T12:38:19 NZDT" name="generateData" finished-at="2023-12-28T12:38:20 NZDT" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateData -->
+        <test-method signature="testCreatePetUsingPropertiesFile()[pri:5, instance:api.test.PetTests@78b66d36]" started-at="2023-12-28T12:38:20 NZDT" name="testCreatePetUsingPropertiesFile" finished-at="2023-12-28T12:38:23 NZDT" duration-ms="2680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePetUsingPropertiesFile -->
+      </class> <!-- api.test.PetTests -->
+      <class name="api.test.StoreTests">
+        <test-method is-config="true" signature="generateData()[pri:0, instance:api.test.StoreTests@2473d930]" started-at="2023-12-28T12:38:23 NZDT" name="generateData" finished-at="2023-12-28T12:38:23 NZDT" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateData -->
+        <test-method signature="testCreateOrder()[pri:1, instance:api.test.StoreTests@2473d930]" started-at="2023-12-28T12:38:23 NZDT" name="testCreateOrder" finished-at="2023-12-28T12:38:24 NZDT" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateOrder -->
+        <test-method signature="testGetOrder()[pri:2, instance:api.test.StoreTests@2473d930]" started-at="2023-12-28T12:38:24 NZDT" name="testGetOrder" finished-at="2023-12-28T12:38:25 NZDT" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetOrder -->
+        <test-method signature="testDeleteOrder()[pri:3, instance:api.test.StoreTests@2473d930]" started-at="2023-12-28T12:38:25 NZDT" name="testDeleteOrder" finished-at="2023-12-28T12:38:26 NZDT" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteOrder -->
+      </class> <!-- api.test.StoreTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
